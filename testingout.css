@@ -36,13 +36,13 @@ a{
 	height: 90%;
 	width: 100%;
 	margin-top: -15px;
-	gap: 5px;
+	gap: 7px;
 
 }
 .img{
 	position: relative;
-	height: 319px;
-	width: 430px;
+	height: 279px;
+	width: 410px;
 	border-radius: 5px;
 	background: rgb(255, 0, 0);
 	display: flex;
@@ -63,4 +63,5 @@ img:hover{
 *{
     margin: 0;
     padding: 0;
+
 }
