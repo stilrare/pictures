@@ -28,7 +28,7 @@
 
     .cover {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      grid-template-columns: repeat(3, minmax(400px, 1fr));
       gap: 20px;
       justify-content: center;
       align-items: center;
@@ -58,6 +58,11 @@
       .cover {
         grid-template-columns: 1fr;
       }
+
+	  img:hover{
+		transform: scale(1.4);
+		z-index: 1;
+	  }
     }
   </style>
 </head>
@@ -116,9 +121,12 @@
 		 <div class="img"><img src="https://img.freepik.com/free-photo/beautiful-lake-mountains_395237-44.jpg?semt=ais_hybrid&w=740&q=80" /></div>
 		         <div class="img"><img src="https://img.freepik.com/free-photo/landscape-with-lake-sunset_395237-259.jpg" /></div>
         <div class="img"><img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg" /></div>
+		  
       </div>
     </div>
   </div>
 </body>
 </html>
+
+
 
