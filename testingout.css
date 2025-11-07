@@ -41,8 +41,8 @@ a{
 }
 .img{
 	position: relative;
-	height: 279px;
-	width: 410px;
+	height: 259px;
+	width: 390px;
 	border-radius: 5px;
 	background: rgb(255, 0, 0);
 	display: flex;
@@ -52,7 +52,7 @@ a{
 }
 img{
     transition: transform 0.3s ease;
-	width: 370px;
+	width: 340px;
 }
 
 img:hover{
@@ -65,3 +65,4 @@ img:hover{
     padding: 0;
 
 }
+
